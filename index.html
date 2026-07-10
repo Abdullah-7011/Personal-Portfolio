@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Rao Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="profile.jpg" alt="Muhammad Abdullah Rao" class="profile-pic">
+        <h1>Muhammad Abdullah Rao</h1>
+        <p>Software Engineering Student | Future Software Engineer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#Certificates">Certificates</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        
+    </nav>
+
+    <section id="about" class="hidden">
+        <h2>About Me</h2>
+        <p>
+            I am Muhammad Abdullah Rao,  currently persuing a Bachelor Degree in Software Engineering at
+            Emerson University Multan.I am Currently enrolled in 5th Semester.I am passionate about
+            web development, learning programming, and software engineering. I enjoy Learning new
+            technologies and applying my skills to solve real-world problems. I am always eager to learn
+            new skills and contribute to an organiztion's success.
+    </section>
+
+    <section id="skills" class="hidden">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>Object Oriented Programming</li>
+            <li>Problem Solving</li>
+            <li>Team Management</li>
+            <li>Leadership</li>
+        </ul>
+    </section>
+     <section id="Certificates" class="hidden">
+        <h2>My Certificates</h2>
+        <ul>
+            <li>Certificate of Object orinted programming in C++</li>
+            <li>Certificate of Python Programming</li>
+            <li>Certificate in Data Engineering</li>
+            <li>Certificate in NMAP </li>
+            <li>Object Oriented Programming</li>
+                                </ul>
+    </section>
+
+    <section id="experience" class="hidden">
+    <h2>Experience</h2>
+    <ul>
+        <li>BS Software Engineering Student (5th Semester)</li>
+        <li>Completed multiple C++ and C# programming assignments.</li>
+        <li>Learning HTML, CSS, and JavaScript.</li>
+        <li>Worked on networking projects using Cisco Packet Tracer.</li>
+        <li>Participating in Web Development Internship.</li>
+    </ul>
+</section>     
+        </p>
+    </section>
+
+    <section id="contact" class="hidden">
+        <h2>Contact Me</h2>
+        <p>Email:  m.raoabdullah7011@gmail.com</p>
+        <p>Phone: +92 3118194145</p>
+        <p>GitHub:
+<a href="https://github.com/Abdullah-7011" target="_blank">
+github.com/Abdullah-7011
+</a>
+</p>
+        <p>LinkedIn:
+<a href="https://www.linkedin.com/in/muhammad-abdullah-rao-8174ab3a7" target="_blank">
+View My LinkedIn Profile
+</a>
+</p>
+    </section>
+
+    <footer>
+    <p>© 2026 Muhammad Abdullah Rao. All rights reserved.</p>
+</footer>
+
+<script>
+const observer = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        }
+    });
+});
+
+document.querySelectorAll(".hidden").forEach((el)=>{
+    observer.observe(el);
+});
+</script>
+
+</body>
+</html>
