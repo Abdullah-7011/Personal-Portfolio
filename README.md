@@ -1,21 +1,5 @@
 # Personal Portfolio
 
-## About
-This is my personal portfolio website developed using HTML, CSS, and JavaScript.
+Professional Portfolio of Muhammad Abdullah Rao
 
-## Features
-- Responsive Design
-- Animated Sections
-- Typing Effect
-- Skills Progress Bars
-- Certificates
-- Projects
-- Contact Information
-
-## Technologies Used
-- HTML5
-- CSS3
-- JavaScript
-
-## Author
-Muhammad Abdullah Rao
+Live site: https://abdullah-7011.github.io/
